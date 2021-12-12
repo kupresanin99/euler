@@ -9,3 +9,4 @@ while digits < 1000:
   f2 = current
   digits = len(str(f2))
 print(f"index = {index} has digits = {digits}")
+print(f"That fib = {f2:,}")
