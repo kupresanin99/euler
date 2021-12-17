@@ -1,17 +1,17 @@
 from math import sqrt
-import time
+#import time
 
 def prime(num):
-  start_time = time.time()
+  #start_time = time.time()
   starter = 2
   while starter <= sqrt(num):
     if num % starter == 0:
-      end_time = time.time()
-      print(f"{num} is not prime, took {end_time - start_time:.3f} seconds")
+      #end_time = time.time()
+      #print(f"{num} is not prime, took {end_time - start_time:.3f} seconds")
       return False
     starter += 1
-    end_time = time.time()
-  print(f"{num} is prime, took {end_time - start_time:.3f} seconds")
+    #end_time = time.time()
+  #print(f"{num} is prime, took {end_time - start_time:.3f} seconds")
   return True
 
 # 15 digit prime ~ 12 seconds

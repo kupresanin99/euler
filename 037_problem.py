@@ -1,28 +1,9 @@
 from prime import prime
+from itertools import combinations_with_replacement
 
-
-
-23
-27
-29
-53
-57
-59
-233
-237
-239
-273
-277
-279
-293
-297
-299
-533
-537
-539
-573
-577
-579
-593
-597
-599
+prefix = ['2', '3', '5', '7']
+suffix = ['3', '7']
+num_1 = '23'
+num_2 = '37'
+num_3 = '73'
+counter = 3
