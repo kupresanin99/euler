@@ -1,6 +1,6 @@
 m = 20
 n = 20
-# Lattice paths in SE direction have m choose m + n 
+# Lattice paths in SE direction have m + n choose m
 
 from math import factorial
 
