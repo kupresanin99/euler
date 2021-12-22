@@ -1,4 +1,4 @@
-my_list = []
+Ímy_list = []
 my_sum = 0
 
 with open('./013_problem.txt', 'r') as f:
