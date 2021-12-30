@@ -1,4 +1,3 @@
-# Pretend universe has only 200, 100, 50, 20p coins
 goal = 300 
 num_ways = 0
 num_200 = goal // 200
