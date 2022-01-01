@@ -11,8 +11,4 @@ def perfect_deficient_abundant(num):
     num_type = 1
   else: 
     num_type = 2
-  print(divisors)
-  print(my_sum)
-  print(num_type)
-
-perfect_deficient_abundant(28)
+  return num, my_sum, num_type, divisors
