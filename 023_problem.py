@@ -1,16 +1,11 @@
 from perfect_deficient_abundant import perfect_deficient_abundant
 from itertools import combinations_with_replacement
-list_of_perfects = []
-list_of_deficients = []
+
 list_of_abundants = []
-my_max = 281240
+my_max = 28124
 for i in range(2, my_max):
   temp = perfect_deficient_abundant(i)
-  if temp[2] == 0:
-    list_of_perfects.append(i)
-  elif temp[2] == 1:
-    list_of_deficients.append(i)
-  else:
+  if temp[2] == 2:
     list_of_abundants.append(i)
 my_ints = []
 for thing in combinations_with_replacement(list_of_abundants, 2):
