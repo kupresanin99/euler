@@ -1,4 +1,4 @@
-# Solutions have to be 2 digits X 3 digits = 4 digits
+# Solutions have to be 2 digits X 3 digits = 4 digits or 1 digit X 4 digits = 4 digits
 # 67 X 89 has 4 digits (not enough for pandigital 1-9)
 # 123 X 456 has 5 digits (too many for pandigital 1-9)
 
@@ -38,5 +38,5 @@ for two_dig in permutations(nine_digits, 1):
     if temp_9 == nine_digits:
       print(f"{temp_2} X {temp_3} = {temp_4}, and digits = {temp_9}")
       list_of_bingos.append(int(temp_4))
-print(f"The sum of products is {sum(set(list_of_bingos))}")
 
+print(f"The sum of products is {sum(set(list_of_bingos))}")
