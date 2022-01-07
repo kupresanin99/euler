@@ -21,5 +21,6 @@ for num in list_of_primes_to_check:
   if add_to_list_of_circular_primes == True:
     list_of_circular_primes.append(num)
 list_of_circular_primes.sort()
+
 print(list_of_circular_primes)
 print(len(list_of_circular_primes))
