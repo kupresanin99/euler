@@ -5,7 +5,12 @@ list_of_primes_to_check = []
 list_of_bingos = []
 num_of_bingos = 0
 
-# Get all candidate primes (can't have even digit or 5 within)
+# Get all candidate primes
+# Can't contain 0, 4, 6, 8
+# Can't contain 2 or 5 unless it starts with 2 or 5
+# Can't start or end with 1
+# Can't start or end with 9
+
 for num in range(2, 1000001):
   if re.search('0|4|6|8', str(num))\
     or re.search('2|5', str(num)[1:])\
