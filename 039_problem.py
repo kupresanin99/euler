@@ -1,6 +1,6 @@
 max_num = 0
 max_count = 0
-for p in range(1000, 12, -1):
+for p in range(1000, 1, -1):
   my_count = 0
   for c in range(round(0.4 * p) + 1, round(0.5 * p)):
     remainder = p - c
