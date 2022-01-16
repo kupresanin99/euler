@@ -1,5 +1,5 @@
 
-file = open('018_problem.txt', 'r')
+file = open('067_problem.txt', 'r')
 list_of_lists = []
 line = file.readline()
 longest_line = 0
