@@ -40,8 +40,8 @@ my_list = my_list[0]
 my_bins = []
 for nums in my_list:
   my_bins.append(make_binary(nums))
-
-
+print(list_of_pots)
+list_of_pots = ['exp']
 for pots in list_of_pots:
   my_key = pots
 
@@ -59,3 +59,9 @@ for pots in list_of_pots:
   if 'the ' in answer or 'THE ' in answer:
     print(f"\n\n\nkey was {my_key}\n")
     print(answer)
+
+ascii_sum = 0
+for euler in answer:
+  ascii_sum += ord(euler)
+
+print(ascii_sum)
