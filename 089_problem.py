@@ -68,10 +68,10 @@ for numeral in my_list:
 
 def to_roman(num):
     the_roman = []
-    the_roman.append(num//1000 * "M")
-    num = num%1000
-    the_roman.append(num//900 * "CM")
-    num = num%900
+    the_roman.append(num // 1000 * "M")
+    num = num % 1000
+    the_roman.append(num // 900 * "CM")
+    num = num % 900
     the_roman.append(num//500 * "D")
     num = num%500
     the_roman.append(num//400 * "CD")
