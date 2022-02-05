@@ -23,3 +23,5 @@ for j in range(2, i):
 my_set_of_results = set(my_list_of_results)
 
 print(sum(my_set_of_results))
+
+# Do not share 
