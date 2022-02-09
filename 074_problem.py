@@ -1,5 +1,6 @@
 from factorial import factorial
 from collections import Counter
+
 list_of_tuples = []
 for n in range(1, 1000001):
   print(n)
@@ -13,5 +14,3 @@ for n in range(1, 1000001):
     list_of_tuples.append(n)
 print(list_of_tuples)
 print(len(list_of_tuples))
-
-
