@@ -16,3 +16,4 @@ for num in range(2, 1000001):
 		print("New Record: Number", temp_num, "needs", counter, "steps.")
 
 print("\n\nThe winning number is", max_answer, "with", max_counter, "steps.\n\n")
+
