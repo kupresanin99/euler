@@ -83,3 +83,13 @@ print()
 print(list_of_oct)
 
 
+for tri_ in list_of_tri:
+  for square_ in list_of_square:
+    for pent_ in list_of_pent:
+      for hex_ in list_of_hex:
+        for hept_ in list_of_hept:
+          for oct_ in list_of_oct:
+            a = set([str(tri_)[:2], str(square_)[:2], str(pent_)[:2], str(hex_)[:2], str(hept_)[:2], str(oct_)[:2]])
+            b = set([str(tri_)[2:], str(square_)[2:], str(pent_)[2:], str(hex_)[2:], str(hept_)[2:], str(oct_)[2:]])
+            if len(a) == 6 and a == b:
+              print(tri_, square_, pent_, hex_, hept_, oct_)
