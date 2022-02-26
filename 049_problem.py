@@ -9,3 +9,5 @@ for x in combinations(list_of_primes, 3):
     if "".join(sorted(str(x[1]))) == "".join(sorted(str(x[2]))):
       if x[2] - x[1] == x[1] - x[0]:
         print(x)
+
+print("joe")
