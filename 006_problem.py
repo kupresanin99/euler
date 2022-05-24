@@ -6,3 +6,5 @@ for i in range(101):
 	sum_squared += i
 
 print("The difference is", sum_squared * sum_squared - sum_of_squares)
+
+
