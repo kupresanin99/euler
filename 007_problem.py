@@ -14,3 +14,4 @@ while counter < 10001:
 		if prime == True:
 			counter += 1
 			print("number", number, "is the", counter, "prime number")
+
