@@ -6,3 +6,4 @@ for a in range(1, 333):
 					if a * a + b * b == c * c:
 						print(a * b * c)
 						
+
